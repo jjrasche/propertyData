@@ -1,0 +1,64 @@
+{% extends "template.html" %}
+{% block body %}
+<style>
+  #map {
+    height: 400px;
+    width: 100%;
+  }
+</style>
+<div id="map"></div>
+<script>
+  var apiKey = "AIzaSyDXxZxWaE1X6aWcphTsHDWEPGSkzXDMpNI"
+  function initMap() {
+
+    var map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 11,
+        center: {lat: 42.7, lng: -84.5}
+    });
+
+    var overlay = null
+    var initialCallMade = false
+
+    map.addListener("dragged", function() {
+        // setupKMLLayer()
+    });
+    map.addListener("dragend", function() {
+        // setupKMLLayer()
+    });
+    map.addListener("zoom_changed", function() {
+        //setupKMLLayer()
+    });
+    map.addListener("click", function() {
+        setupKMLLayer()
+    });
+
+    setupKMLLayer = function setupKMLLayer() {
+        url = "http://propertydata.ddns.net/api/generateMappings?" +
+                    "north=" + map.getBounds().getNorthEast().lat() +
+                    "&south=" + map.getBounds().getSouthWest().lat() +
+                    "&east=" + map.getBounds().getNorthEast().lng() +
+                    "&west=" + map.getBounds().getSouthWest().lng()
+        console.log(url)
+        if (overlay) {
+            //overlay.setMap(null)
+        }
+        overlay = new google.maps.KmlLayer({
+            url: url,
+            map: map
+        });
+        return overlay
+    }
+
+    google.maps.event.addListenerOnce(map, 'tilesloaded', function(){
+        //this part runs when the mapobject is created and rendered
+        if (!initialCallMade) {
+            setupKMLLayer()
+            initialCallMade = true
+        }
+    });
+  }
+</script>
+<script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDXxZxWaE1X6aWcphTsHDWEPGSkzXDMpNI&callback=initMap">
+</script>
+{% endblock %}

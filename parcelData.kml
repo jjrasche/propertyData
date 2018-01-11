@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+	<Document>
+		<name>Rental map</name>
+		<description>Map of properties by rental status</description>
+
+		<Style id="rental">
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>
+	    <Style id="homeOwner">
+			<IconStyle>
+				<Icon>
+					<href>http://maps.google.com/mapfiles/kml/pushpin/green-pushpin.png</href>
+				</Icon>
+			</IconStyle>
+		</Style>		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>205 W ALLEGAN ST LANSING, MI  48933, Lansing, MI : Garage, Parking, Aboveground : COMMERCIAL : 1 : BLUE CROSS BLUE SHIELD OF MICHIGAN</name>
+			<Point>
+				<coordinates>-84.554397999999991952790878713130,42.732162999999999897227098699659,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>3300 EXPRESS CT LANSING, MI  48910, Lansing, MI : Fraternal Building : COMMERCIAL : 16 : CHARTER DEVELOPMENT CO L L C</name>
+			<Point>
+				<coordinates>-84.575268499999992855009622871875,42.699060000000002901288098655641,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>3131 E MICHIGAN AVE LANSING, MI  48912, Lansing, MI : Store, Discount : COMMERCIAL : 14 : 4TH STREET SOUTH II L L C</name>
+			<Point>
+				<coordinates>-84.506789999999995188773027621209,42.734601599999997745271684834733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>707 ARMSTRONG RD LANSING, MI  48911, Lansing, MI : Hospital, Convalescent : COMMERCIAL : 4 : C V L M</name>
+			<Point>
+				<coordinates>-84.542221200000014391662261914461,42.680120199999997510076354956254,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>2700 TRAPPERS COVE TRAIL LANSING, MI  48911, Lansing, MI : Multiple Residence : COMMERCIAL : 0 : TRAPPERS COVE LTD PARTNERS</name>
+			<Point>
+				<coordinates>-84.512866000000002486558514647185,42.686914999999999054125510156154,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#homeOwner</styleUrl>
+			<name>300 FRANDOR AVE LANSING, MI  48912, Lansing, MI : Shopping Center, Neighborhood : COMMERCIAL : 32 : LANSING RETAIL CENTER L L C</name>
+			<Point>
+				<coordinates>-84.507307499999996025508153252303,42.737662499999998999555828049778,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>3113 FOREST RD LANSING, MI  48910, Lansing, MI : Apartment : COMMERCIAL : 0 : HUNT CLUB LTD HOUSING ASSOC</name>
+			<Point>
+				<coordinates>-84.507243000000002552951627876609,42.705734999999997114628058625385,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>200 FRIENDSHIP CIRCLE LANSING, MI  48912, Lansing, MI : Multiple Residence, Senior Citizen : COMMERCIAL : 0 : M S H D A</name>
+			<Point>
+				<coordinates>-84.501636300000001256194082088768,42.736256699999998431849235203117,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>2901 BEAUJARDIN DR LANSING, MI  48910, Lansing, MI : Multiple Residence : COMMERCIAL : 0 : CHERRYWOOD APARTMENTS LTD</name>
+			<Point>
+				<coordinates>-84.512208999999998582097759936004,42.685299999999998021849023643881,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>211 S WASHINGTON SQ LANSING, MI  48933, Lansing, MI : Office Building : COMMERCIAL : 1 : ATRIUM OFFICE PARTNERS</name>
+			<Point>
+				<coordinates>-84.551777799999996432234183885157,42.732028900000003091008693445473,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>700 MAY ST LANSING, MI  48906, Lansing, MI : Office Building : COMMERCIAL : 4 : SUMMIT STREET DEVELOPMENT</name>
+			<Point>
+				<coordinates>-84.542476999999990994183463044464,42.742036499999997545273799914866,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>5901 S PENNSYLVANIA AVE LANSING, MI  48911, Lansing, MI : Automobile Showroom : COMMERCIAL : 3 : CARS-DB4 L P</name>
+			<Point>
+				<coordinates>-84.537179799999989882053341716527,42.671431099999999503324943361803,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>2800 BEAUJARDIN DR LANSING, MI  48910, Lansing, MI : Multiple Residence : COMMERCIAL : 0 : CHERRYWOOD APARTMENTS LTD</name>
+			<Point>
+				<coordinates>-84.511863899999994487188814673572,42.684344099999997013128449907526,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>301 E EDGEWOOD BLVD LANSING, MI  48911, Lansing, MI : Clubhouse : COMMERCIAL : 0 : VW230 L L C</name>
+			<Point>
+				<coordinates>-84.550789399999999318424670491367,42.662891299999998295788827817887,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>3433 E MICHIGAN AVE LANSING, MI  48912, Lansing, MI : Multiple Residence : COMMERCIAL : 1 : 3411 E MICHIGAN AVE L L C</name>
+			<Point>
+				<coordinates>-84.501275699999993662459019105881,42.734048199999996597853169078007,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>111 N GRAND AVE LANSING, MI  48933, Lansing, MI : Hotel - Limited Service : COMMERCIAL : 1 : BLK 100 LTD/PARTNERSHIP</name>
+			<Point>
+				<coordinates>-84.550846800000002190245140809565,42.734164300000003322566044516861,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#homeOwner</styleUrl>
+			<name>6840 S CEDAR ST LANSING, MI  48911, Lansing, MI : Hotel - Limited Service : COMMERCIAL : 2 : CB LANSING 300 L L P</name>
+			<Point>
+				<coordinates>-84.536917000000002531123755034059,42.657625000000003012701199622824,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#homeOwner</styleUrl>
+			<name>401 S WASHINGTON SQ LANSING, MI  48933, Lansing, MI : Apartment : COMMERCIAL : 1 : ARBAUGH REDEVELOPMENT LTD DIV HOUS</name>
+			<Point>
+				<coordinates>-84.551746999999991771801433060318,42.729638999999998816292645642533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#homeOwner</styleUrl>
+			<name>110 W MICHIGAN AVE LANSING, MI  48933, Lansing, MI : Office Building : COMMERCIAL : 0 : CAPITAL TOWER L L C</name>
+			<Point>
+				<coordinates>-84.552893499999996151927916798740,42.733628600000002961678546853363,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>6821 S CEDAR ST LANSING, MI  48911, Lansing, MI : Store, Warehouse Discount : COMMERCIAL : 15 : LOWE&apos;S HOME CENTERS INC</name>
+			<Point>
+				<coordinates>-84.534266000000002350134309381246,42.659041799999997124359651934355,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>1500 MILL POND LANE LANSING, MI  48911, Lansing, MI : Multiple Residence : COMMERCIAL : 57 : MILL POND PROPERTY L L C</name>
+			<Point>
+				<coordinates>-84.530785200000011059273674618452,42.657542900000002816796040860936,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>2701 TRAPPERS COVE TRAIL LANSING, MI  48911, Lansing, MI : Multiple Residence : COMMERCIAL : 0 : EDWARD ROSE REALTY INC</name>
+			<Point>
+				<coordinates>-84.512742500000001655280357226729,42.687805500000003178229235345497,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>120 W ALLEGAN ST LANSING, MI  48933, Lansing, MI : Bank - Central : COMMERCIAL : 0 : BOJI TOWER L L C</name>
+			<Point>
+				<coordinates>-84.553156599999994114114088006317,42.732697100000002876640792237594,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>3600 N GRAND RIVER AVE LANSING, MI  48906, Lansing, MI : Office Building : COMMERCIAL : 7 : AIS CONSTRUCTION EQUIP CORP</name>
+			<Point>
+				<coordinates>-84.581384499999998638486431445926,42.764135899999999423926055897027,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>5015 S CEDAR ST LANSING, MI  48910, Lansing, MI : Office Building : COMMERCIAL : 7 : EYDE CONSTRUCTION CO</name>
+			<Point>
+				<coordinates>-84.545846999999994864083419088274,42.683956700000003081640898017212,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>426 E EDGEWOOD BLVD LANSING, MI  48911, Lansing, MI : Shopping Center, Community : COMMERCIAL : 12 : RCG-LANSING L L C</name>
+			<Point>
+				<coordinates>-84.544612000000000762156560085713,42.662329999999997198756318539381,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>4900 CONTEC DR LANSING, MI  48910, Lansing, MI : Warehouse, Storage : COMMERCIAL : 17 : JADO II L L C</name>
+			<Point>
+				<coordinates>-84.529393299999995292637322563678,42.686340399999998851399141130968,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>6250 S CEDAR ST LANSING, MI  48911, Lansing, MI : Restaurant : COMMERCIAL : 8 : NIKARACH L L C &amp; ET AL</name>
+			<Point>
+				<coordinates>-84.544118099999991500226315110921,42.666831700000003024797479156404,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#homeOwner</styleUrl>
+			<name>3500 N M L KING JR BLVD LANSING, MI  48906, Lansing, MI : Warehouse, Storage : COMMERCIAL : 13 : EMERGENT BIOSOLUTIONS INC</name>
+			<Point>
+				<coordinates>-84.565628799999998932435119058936,42.768882900000008362439984921365,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>900 W EDGEWOOD BLVD LANSING, MI  48911, Lansing, MI : Clubhouse : COMMERCIAL : 0 : NEW TRADITIONS LANSING L P</name>
+			<Point>
+				<coordinates>-84.565525800000003187051333952695,42.664261000000003321019903523847,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>232 S CAPITOL AVE LANSING, MI  48933, Lansing, MI : Office Building : COMMERCIAL : 1 : BLUE CROSS BLUE SHIELD OF MICHIGAN</name>
+			<Point>
+				<coordinates>-84.554400999999998589373717550188,42.731622000000001548869477119296,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>2301 E JOLLY RD LANSING, MI  48910, Lansing, MI : Clubhouse : COMMERCIAL : 0 : EL-AD BRIARCLIFFE II L L C</name>
+			<Point>
+				<coordinates>-84.518084799999996903352439403533,42.683456999999997094619175186380,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>200 N WASHINGTON SQ LANSING, MI  48933, Lansing, MI : Office Building : COMMERCIAL : 0 : BUSINESS &amp; TRADE CENTER LTD</name>
+			<Point>
+				<coordinates>-84.551813199999998005296220071613,42.734878899999998225212038960307,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>200 W EDGEWOOD BLVD LANSING, MI  48911, Lansing, MI : Multiple Residence, Senior Citizen : COMMERCIAL : 9 : VISTA SPRINGS EDGEWOOD PROP L L C</name>
+			<Point>
+				<coordinates>-84.554340099999990343349054455757,42.661547699999999849751475267112,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>5911 S WAVERLY RD LANSING, MI  48911, Lansing, MI : Multiple Residence : COMMERCIAL : 12 : MANOR BORN LTD HOUSING ASSOC</name>
+			<Point>
+				<coordinates>-84.600363000000001534317561890929,42.670686000000003446075425017625,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>3301 E MICHIGAN AVE LANSING, MI  48912, Lansing, MI : Store, Warehouse Discount : COMMERCIAL : 9 : E MICHIGAN (3301) PARTNERS</name>
+			<Point>
+				<coordinates>-84.504251500000009400537237524986,42.733587599999999895317159825935,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#homeOwner</styleUrl>
+			<name>5500 AURELIUS RD LANSING, MI  48911, Lansing, MI : Warehouse, Distribution : INDUSTRIAL : 6 : CAPITOL BEVERAGE CO INC</name>
+			<Point>
+				<coordinates>-84.524777999999997746272129006683,42.678021000000001095031620934605,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<styleUrl>#rental</styleUrl>
+			<name>5858 ENTERPRISE DR LANSING, MI  48911, Lansing, MI : Industrial, Light Manufacturing : INDUSTRIAL : 5 : BROSIS L L C</name>
+			<Point>
+				<coordinates>-84.527627099999989468415151350200,42.671183700000000271757016889750,0</coordinates>
+			</Point>
+		</Placemark>
+	</Document>
+</kml>
